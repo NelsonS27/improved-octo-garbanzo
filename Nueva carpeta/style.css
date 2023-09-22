@@ -4,8 +4,8 @@ body {
   padding: 0;
   height: 100vh; /* Asegura que el cuerpo ocupe toda la altura de la ventana */
   display: flex;
-  align-items: center; /* Centra verticalmente los elementos en el cuerpo */
-  justify-content: center; /* Centra horizontalmente los elementos en el cuerpo */
+  align-items: center; 
+  justify-content: center; 
 }
 .flower {
   height: 200px;
@@ -17,7 +17,7 @@ body {
   justify-content: center;
 
   position: relative;
-  background-color: #000; /* Fondo negro para toda la página */
+  background-color: #000;
 
   /* Agrega una animación de pulsación */
   animation: pulsate 2s infinite;
@@ -27,16 +27,16 @@ body {
 .text-below {
     position: absolute;
     text-align: center;
-    color: #fff; /* Color del texto */
-    font-size: 25px; /* Tamaño del texto */
+    color: #fff; /* Color del texto 
+    font-size: 25px; 
 }
 
 .text-above {
-    top: -60px; /* Ajusta la posición vertical del texto arriba de la flor */
+    top: -60px; 
 }
 
 .text-below {
-    bottom: -60px; /* Ajusta la posición vertical del texto debajo de la flor */
+    bottom: -60px; 
 }
 @keyframes pulsate {
   0% {
